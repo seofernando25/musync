@@ -18,8 +18,9 @@ Musync is a lightweight, high-performance Discord music bot built with [Bun](htt
 
 Before you begin, ensure you have the following installed on your system:
 
-- [Bun](https://bun.sh/docs/installation) (v1.0 or higher)
+- [Bun](https://bun.sh/docs/installation)
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp#installation)
+    - If you have python its very easy to install it with `pip install yt-dlp`
 
 ### 2. Installation & Setup
 
@@ -48,7 +49,7 @@ Before you begin, ensure you have the following installed on your system:
 Start the bot using the following command:
 
 ```bash
-bun index.ts
+bun dev
 ```
 
 Once running, the bot will log in and be ready to accept commands in your Discord server.
